@@ -58,5 +58,10 @@ class UserController extends Controller
         'email' => $data['email'],
         'password' => Hash::make($data['password'])
       ]);
-    }    
+    }
+    
+    public function update(Request $request)
+    {
+        
+    }
 }

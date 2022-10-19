@@ -34,7 +34,7 @@
               <option value="{{$manuf->name}}">{{$manuf->name}}</option>
               @endforeach
             </select>
-            <input type="file" name="location" class="w-1/2 pl-2 h-10 text-sm rounded-lg border border-black my-2" placeholder="location">
+            <input type="input" name="location" class="w-1/2 pl-2 h-10 text-sm rounded-lg border border-black my-2" placeholder="location">
             <input type="file" name="image" class="w-1/2 pl-2 h-10 text-sm rounded-lg border border-black my-2" placeholder="image">
             <input type="text" class="w-1/2 pl-2 h-10 text-sm rounded-lg border border-black my-2" placeholder="Engine size" name="engine_size">
             <input type="text" class="w-1/2 pl-2 h-10 text-sm rounded-lg border border-black my-2" placeholder="Power" name="power">
